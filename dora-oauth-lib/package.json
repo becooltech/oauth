@@ -1,14 +1,22 @@
 {
-  "name": "dora-oauth-lib",
-  "version": "0.0.1",
+  "name": "dora-oauth-utils",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "yuemingshi <yueming.shi@gmail.com>",
-  "license": "MIT"
+  "author": "leaf4monkey <joc98@163.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becooltech/oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/becooltech/oauth/issues"
+  },
+  "homepage": "https://github.com/becooltech/oauth#readme"
 }

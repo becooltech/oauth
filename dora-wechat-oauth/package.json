@@ -5,7 +5,7 @@
     "test": "mocha",
     "preinstallOnly": "npm test"
   },
-  "version": "0.7.11",
+  "version": "0.7.12",
   "keywords": [
     "wechat",
     "oauth2"
@@ -28,5 +28,13 @@
     "chai": "^3.5.0",
     "mocha": "^3.4.1",
     "sinon": "^2.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becooltech/oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/becooltech/oauth/issues"
+  },
+  "homepage": "https://github.com/becooltech/oauth#readme"
 }

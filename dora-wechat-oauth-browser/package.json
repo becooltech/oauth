@@ -1,13 +1,13 @@
 {
   "name": "dora-wechat-oauth-browser",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "author": {
     "name": "yuemingshi",
     "email": "yueming.shi@gmail.com"
   },
   "description": "wechat oauth",
   "dependencies": {
-    "dora-oauth-browser": "^1.1.7",
+    "dora-oauth-browser": "^1.1.9",
     "querystring": "^0.2.0"
   },
   "devDependencies": {
@@ -31,5 +31,13 @@
     "lint": "eslint .",
     "test": "mocha",
     "prepublishOnly": "npm run lint && npm test"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becooltech/oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/becooltech/oauth/issues"
+  },
+  "homepage": "https://github.com/becooltech/oauth#readme"
 }

@@ -4,4 +4,4 @@
  * @author joc (Chen Wen)
  */
 'use strict';
-module.exports = require('dora-oauth-lib/lib/assets');
+module.exports = require('dora-oauth-utils/lib/assets');

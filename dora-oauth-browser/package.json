@@ -3,12 +3,12 @@
     "name": "yuemingshi",
     "email": "yueming.shi@gmail.com"
   },
-  "version": "1.1.7",
+  "version": "1.1.9",
   "bundleDependencies": false,
   "deprecated": false,
   "description": "",
   "dependencies": {
-    "dora-oauth-lib": "0.0.1",
+    "dora-oauth-utils": "0.0.2",
     "querystring": "^0.2.0"
   },
   "devDependencies": {
@@ -31,5 +31,13 @@
     "lint": "eslint .",
     "test": "mocha",
     "prepublishOnly": "npm run lint && npm test"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becooltech/oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/becooltech/oauth/issues"
+  },
+  "homepage": "https://github.com/becooltech/oauth#readme"
 }

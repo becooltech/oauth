@@ -4,7 +4,7 @@
  * @author joc (Chen Wen)
  */
 'use strict';
-require('dora-oauth-lib/lib/server-atob');
+require('dora-oauth-utils/lib/server-atob');
 let CONSTANTS;
 
 try {

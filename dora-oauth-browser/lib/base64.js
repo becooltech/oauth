@@ -4,4 +4,4 @@
  * @author joc (Chen Wen)
  */
 'use strict';
-module.exports = require('dora-oauth-lib/lib/base64');
+module.exports = require('dora-oauth-utils/lib/base64');

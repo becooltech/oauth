@@ -1,6 +1,6 @@
 {
   "name": "dora-oauth-mock",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "app-client.js",
   "scripts": {
@@ -19,5 +19,13 @@
     "dora-oauth-browser": "^1.1.7",
     "express": "^4.15.3",
     "lodash": "^4.17.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becooltech/oauth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/becooltech/oauth/issues"
+  },
+  "homepage": "https://github.com/becooltech/oauth#readme"
 }
