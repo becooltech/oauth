@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "yuemingshi",
+    "email": "yueming.shi@gmail.com"
+  },
+  "version": "1.1.7",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "dependencies": {
+    "dora-oauth-lib": "0.0.1",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^4.2.0",
+    "mocha": "^3.4.1",
+    "request": "^2.81.0",
+    "sinon": "^2.2.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "oauth2"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "dora-oauth-browser",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "prepublishOnly": "npm run lint && npm test"
+  }
+}

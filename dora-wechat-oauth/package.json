@@ -1,0 +1,32 @@
+{
+  "name": "dora-wechat-oauth",
+  "description": "wechat oauth",
+  "scripts": {
+    "test": "mocha",
+    "preinstallOnly": "npm test"
+  },
+  "version": "0.7.11",
+  "keywords": [
+    "wechat",
+    "oauth2"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "author": {
+    "name": "yuemingshi",
+    "email": "yueming.shi@gmail.com"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "randomstring": "^1.1.5",
+    "request": "^2.81.0",
+    "url": "^0.11.0",
+    "wechat-oauth": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "sinon": "^2.2.0"
+  }
+}

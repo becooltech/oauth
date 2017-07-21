@@ -1,0 +1,14 @@
+{
+  "name": "alipay-oauth-example",
+  "version": "0.0.2",
+  "description": "dorasdream's alipay oauth example",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "yuemingshi <yueming.shi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dora-alipay-oauth-browser": "^0.1.3"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "dora-oauth-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "request": "^2.81.0",
+    "sinon": "^2.2.0"
+  }
+}

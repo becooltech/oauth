@@ -1,0 +1,23 @@
+{
+  "name": "dora-oauth-mock",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app-client.js",
+  "scripts": {
+    "test": "mocha",
+    "preinstallOnly": "npm test"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "request": "^2.81.0",
+    "sinon": "^2.3.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dora-oauth-browser": "^1.1.7",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4"
+  }
+}

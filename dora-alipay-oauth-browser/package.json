@@ -1,0 +1,43 @@
+{
+  "name": "dora-alipay-oauth-browser",
+  "version": "1.0.0",
+  "author": {
+    "name": "yuemingshi",
+    "email": "yueming.shi@gmail.com"
+  },
+  "keywords": [
+    "alipay",
+    "oauth2"
+  ],
+  "description": "alipay oauth",
+  "dependencies": {
+    "dora-oauth-browser": "^1.1.7",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "chai": "^3.5.0",
+    "dora-oauth-mock": "0.0.1",
+    "dora-wechat-oauth": "^0.7.10",
+    "ejson": "^2.1.2",
+    "eslint": "^4.2.0",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.1",
+    "request": "^2.81.0",
+    "sinon": "^2.2.0"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "yuemingshi",
+      "email": "yueming.shi@gmail.com"
+    }
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "prepublishOnly": "npm run lint && npm test"
+  }
+}

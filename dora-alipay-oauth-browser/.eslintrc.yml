@@ -1,0 +1,30 @@
+env:
+  es6: true
+  node: true
+extends: 'eslint:recommended'
+parserOptions:
+  ecmaVersion: 5
+globals:
+  XMLHttpRequest: true
+  fetch: true
+  navigator: true
+  document: true
+  localStorage: true
+  sessionStorage: true
+  debugConsole: true
+  Promise: true
+  Meteor: true
+  window: true
+  describe: true
+  it: true
+  before: true,
+  beforeEach: true,
+  after: true,
+  afterEach: true
+rules:
+  #indent:
+  #  - error
+  #  - 4
+  #  - SwitchCase: 1
+  no-console: [0]
+  no-unused-vars: [0]
