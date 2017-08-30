@@ -8,7 +8,7 @@ var OAuth = require('dora-oauth-browser');
 
 function AlipayOAuth (appId, options) {
     options = options || {};
-    options.serviceName = 'alipay';
+    options.serviceName = options.serviceName || 'alipay';
     OAuth.call(this, appId, options);
     var self = this;
 
